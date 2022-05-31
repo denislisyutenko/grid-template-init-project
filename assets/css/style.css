@@ -477,7 +477,7 @@ a {
   gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(50px, -webkit-max-content));
   grid-template-columns: repeat(auto-fit, minmax(50px, max-content));
-  margin: 0 10px 0 0;
+  margin: 0 -10px 0 0;
   padding: 0;
   list-style: none;
 }
@@ -486,9 +486,6 @@ a {
   padding: 20px 10px;
   -webkit-transition: color 0.5s;
   -o-transition: color 0.5s;
-  transition: color 0.5s;
-  font-size: 1.125rem;
-  letter-spacing: 0.1em;
   transition: color 0.5s;
   font-size: 1.125rem;
 }
