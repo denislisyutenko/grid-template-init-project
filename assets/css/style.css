@@ -508,7 +508,6 @@ a {
   z-index: 1;
 }
 .header-content__title {
-  margin: 0 0 53px;
   text-align: center;
 }
 .header-content__actions {
@@ -646,4 +645,31 @@ a {
 
 .skill-item:nth-of-type(9) {
   grid-area: a9;
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 3.75rem;
+  }
+  .header-content__title {
+    margin: 0 0 53px;
+  }
+}
+
+@media (max-width: 991.8px) and (min-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .header-content__title {
+    margin: 0 0 43px;
+  }
+}
+
+@media (max-width: 767.8px) {
+  h1 {
+    font-size: 1.875rem;
+  }
+  .header-content__title {
+    margin: 0 0 33px;
+  }
 }
