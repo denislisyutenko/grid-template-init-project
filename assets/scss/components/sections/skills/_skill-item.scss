@@ -7,11 +7,11 @@
     overflow: hidden;
 
     &__title {
-        margin: 0;
-        @include abs-position;
         z-index: 1;
-
+        margin: 0;
         letter-spacing: 0.1em;
+
+        @include abs-position;
         
         @include md-min {
             font-size: 1.25rem;
@@ -39,15 +39,15 @@
     &__image {
         background-position: 50% 50%;
         background-size: cover;
-        @include abs-position;
         transition: transform 0.5s;
+        @include abs-position;
     }
 
     &__overlay {
         background-color: $color-primary;
         opacity: 0.8;
-        @include abs-position;
         transition: opacity 0.5s;
+        @include abs-position;
     }
 
     &__link {

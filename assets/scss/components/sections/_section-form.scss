@@ -37,7 +37,7 @@
             background-color: rgba($color-light, 0.05);
             border: 2px solid rgba($color-light, 0);
             border-bottom: 2px solid rgba($color-light, 0.1);
-            border-bottom-color: rgba($color-light, 0.2);
+            border-bottom-color: rgba($color-light, 0.25);
             outline: none;
             font-size: 1.125rem;
             letter-spacing: 0.15em;
@@ -50,8 +50,7 @@
 
             &:hover,
             &:focus {
-                color: rgba($color-light, 50%);
-                border-color: rgba($color-light, 0.1);
+                border-color: rgba($color-light, 0.15);
                 border-bottom-color: $color-light;
                 background-color: rgba($color-light, 0.15);
 
@@ -63,7 +62,7 @@
     }
 
     & .btn--primary {
-        width: 100%;
+        min-width: 100%;
         color: $color-light;
         background-color: rgba($color-light, 0.1);
         border-color: rgba($color-light, 0);
